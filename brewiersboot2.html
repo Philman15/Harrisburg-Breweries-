@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<div id="like_button_container"></div>
+<head>
+  <!-- The API with all the breweries in it https://api.openbrewerydb.org/breweries?by_city=Harrisburg-->
+<div id="root">
+  <div class="container"></div>
+</div>
+  <title>Harrisburg Breweries</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+ <!-- Load React. -->
+  <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+
+  <!-- Load our React component. -->
+  <script src="like_button.js"></script>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1 style="color:#043544;">Harrisburg Breweries</h1>
+  <p style="color:#043544;">All your local breweries at the tip of your fingers</p> 
+</div>
+
+<nav class="navbar sticky-top bg-dark navbar-primary">
+
+  <a class="navbar-brand" href="#">Home</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<!-- was going to anchor the links in the nav bar to locatios on the page-->
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Breweries <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Details</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<div class="jumbotron text-center" style="margin-top:0px">
+  <div class="row">
+    <div class="col-sm-6"></div>
+  </div>
+    <body>
+      <body class="container">
+  <div class="col-lg-1 col-offset-6 centered">
+  </div>
+    </style>
+    <div class="jumbotron text-center" style="margin-bottom:0">
+      <h2 style= "color:#043544"; >Harrisburg Breweries</h2>
+      <div class="photo"><img /></div>
+      <style type="text/css">
+      div.photo { height: 100px; line-height: 100px;text-align:center; }
+  div.photo img { vertical-align:middle;}
+</style>
+      <img src="harrisburg-skyline-joe-goodrich.jpg" style="width:500px;height:300px" class="center"> 
+      <p style="color:#043544;">Brief History.</p><center>
+      <p style="color:#043544;">Brewying in Harrisburg has been around in the city of harrisburg since the earliest of years. Since 1830 there have been many breweries in the area with the highest point was a whooping 2300 in 1880. While many of them have gone away Harrisburg still has thriving breweries and a great spot to hang out with family and friends.</p><center>
+      </div>
+  <h2 style="color:#043544;">Appalachin Brewing Co</h2>
+    <h5 style="color:#043544;">50 N Cameron St Harrisbrug, PA</h5>
+    <h2 style="color:#fb5c54;">Brewpub</h2>
+    <img class="image image-contain" src="apc.jpg" style="width:500px;height:300px";> 
+    <!--https://goo.gl/maps/jwiKseYm13hMKXRC6-->
+    <p>            
+    </p>
+    <a href = "https://abcbrew.com/">https://abcbrew.com/</a>
+  <h2 style="color:#043544;">Boneshire Brew Works</h2>
+    <h5 style="color:#043544;">7462 Derry St Harrisbrug, PA</h5>
+    <!--https://goo.gl/maps/ZhSeVUibdd8Yvgte9-->
+      <h2 style="color:#fb5c54;">Micro</h2>  
+      <img class="image image-contain" src="Boneshire.jpg" style="width:500px;height:300px;"> 
+      <p>
+      </p>
+      
+      <a href = "http://www.boneshire.com/">http://www.boneshire.com/</a>
+
+  <h2 style="color:#043544;">Brewery in Planning </h2>
+    <h5 style="color:#043544;">TBD Harrisbrug, PA</h5>
+    <img class="image image-contain" src="soon.jpg" style="width:500px;height:300px;"> 
+
+  <h2 style="color:#043544;">Spring Gate Brewery</h2>
+    <h5 style="color:#043544;"> 5790 Devonshire Rd Harrisbrug, PA</h5>
+    <!--https://goo.gl/maps/4wjSjU3XVW9TPH6y9-->
+    <h2 style="color:#fb5c54";>Micro</h2>   
+    <img class="image image-contain" src="Springgate.jpeg" style="width:500px;height:300px;">
+    <p>
+    </p>
+    <a href = "http://www.springgatebrewery.com/">http://www.springgatebrewery.com/</a>
+
+  <h2 style="color:#043544;">The Millworks Brewery</h2>
+      <h5 style="color:#043544;">340 Verbeke St Harrisbrug, PA</h5>
+      <!--https://goo.gl/maps/kS2fAeaDZgUZ5pby8-->
+      <h2 style="color:#fb5c54;">Brewpub</h2>
+      <img class="image image-contain" src="Millworks.jpg" style="width:500px;height:300px;">
+      <p>
+      </p>
+      <a href = "https://millworksharrisburg.com/?gclid=CjwKCAjw0N3nBRBvEiwAHMwvNo-hWkBDmO2JMc-PlOvLp8nO2Xe0JT7g1Ypgnd-ok9OcGnQ434my5BoCrs0QAvD_BwE">https://millworksharrisburg.com/?gclid=CjwKCAjw0N3nBRBvEiwAHMwvNo-hWkBDmO2JMc-PlOvLp8nO2Xe0JT7g1Ypgnd-ok9OcGnQ434my5BoCrs0QAvD_BwE</a>
+  <h2 style="color:#043544;">The Vegetable Hunter</h2>
+      <h5 style="color:#043544;">614 N 2nd St Harrisbrug, PA</h5>
+      <!--https://goo.gl/maps/rq3yNNgrfEJ6ETKF9-->
+      <h2 style="color:#fb5c54;">Brewpub</h2>
+      <img class="image image-contain" src="Veg.jpeg" style="width:500px;height:300px;"> 
+      <p>
+      </p>
+      <a href = "http://thevegetablehunter.com/">http://thevegetablehunter.com/</a>
+      <h2 style="color:#043544;">Wolf Brewing Company</h2>
+      <h5 style="color:#043544;">Harrisbrug, PA</h5>
+      <!--https://goo.gl/maps/z8pWwqfCuo6GdeFt8-->
+      <h2 style="color:#043544;">Planning</h2>
+      <img class="image image-contain" src="wolf.jpg" style="width:500px;height:300px;"> 
+      <p>
+      </p>
+      <a href = "https://www.wolfbrewingco.com/">https://www.wolfbrewingco.com/</a>
+
+      <h2 style="color:#043544;">Zeroday Brewing Company</h2>
+      
+      <h5 style="color:#043544;">205 Reily St Suite 103 Harrisbrug, PA</h5>
+      <h2 style="color:#fb5c54;">Brewpub</h2>
+      <img class="image image-contain" src="zero day.jpeg" style="width:500px;height:300px;"> 
+      <!--https://goo.gl/maps/Xap9FXXKpzz3ao12A-->
+      <p>
+      </p>
+      <a href = "https://www.zerodaybrewing.com/">https://www.zerodaybrewing.com/</a>
+  <div class="content">
+   </div>
+  </body>
+  </div>
+</div>
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <h1 style="color:#043544;">LOCATIONS</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+   <!-- was going to insert a live feed from UNTAPPED to show users the ratings of the beer that is from the breweries-->
+
+    <!-- THis is my google maps api. This was going to put the map at the bottom of the screen and show all the possible markers on the map. It was going to show each marker with the name and directions to the brewery.-->
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1">
+    <title>Locations</title>
+    <link href="style.css" rel="stylesheet" /> 
+    </head> 
+    <style>
+     
+      #map {
+        height: 400px;
+      }
+      html, body {
+        height: 400px;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+       var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 10,
+          center: {lat:40.2662372, lng:-76.7615261},
+        })      
+        var Appalachin = new google.maps.Marker({
+          position: {lat:40.2662372, lng:-76.7615261},
+          map: map,
+          title: 'ABC'
+      })
+      var Boneshire = new google.maps.Marker({
+          position: {lat:40.2633825, lng:-76.8712077},
+          map: map,
+          title: 'Boneshire'
+        })
+      var springgatebrewery = new google.maps.Marker({
+          position: {lat:40.304584, lng:-76.786316},
+          map: map,
+          title: 'Spring Gate'
+      })
+      var Millworks Brewery = new google.maps.Marker({
+          position: {lat:40.270538, lng:-76.8874206},
+          map: map,
+          title: 'Millworks'
+      })
+      var TheVegetableHunter = new google.maps.Marker({
+          position: {lat:40.2638045, lng:-76.8881545},
+          map: map,
+          title: 'Vegetable Hunter'
+        })
+        
+      var ZerodayBrewingCompany = new google.maps.Marker({
+          position: {lat:40.2717061, lng:-76.8915931},
+          map: map,
+          title: 'Zeroday'
+      })
+        
+      </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAHzK49xTJef3EVwW5mk10vxNhAPfnOs8k&callback=initMap"
+    async defer></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+<div class="jumbotron text-center" style="margin-bottom:0">
+  <p style="color:#043544;">Philip Manders, philmanders15@gmail.com, (717)658-5499</p>
+</div>
+
+</body>
+</html>
